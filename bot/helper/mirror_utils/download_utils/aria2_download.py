@@ -83,7 +83,7 @@ def __onDownloadStopped(api, gid):
     sleep(6)
     dl = getDownloadByGid(gid)
     if dl:
-        dl.getListener().onDownloadError('Dead torrent!')
+        dl.getListener().onDownloadError('Dead torrent! /n Use qB commands /n Or use Seedr.cc !')
 
 @new_thread
 def __onDownloadError(api, gid):
